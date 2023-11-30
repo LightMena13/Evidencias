@@ -1,0 +1,22 @@
+<body>
+
+  <div class="formulario">
+
+    <audio autoplay>
+      <source src="https://www.cjoint.com/doc/23_11/MKpcTfc1Oal_X2Download.app---Minecraft-Theme-Song-%7BExtended-for-30-Minutes%7D-64-kbps-.mp3" loop>
+    </audio>
+
+    <button export class="button1" onclick="document.querySelector('audio').play()"> Play </button>
+    <button export class="button2" onclick="document.querySelector('audio').pause()"> Pause </button>
+
+  <h1> Proyecto Final </h1>
+  <h3> {{Nombre}} {{Apellidos}} </h3>
+  
+  <router-outlet>
+    <nav>
+      <a routerLink="/menu" class="btn btn-primary" routerLinkActive="routerLinkActive"> Menu </a>
+    </nav>
+  </router-outlet>
+
+  </div>
+</body>

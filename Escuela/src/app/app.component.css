@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(63, 150, 150);
+    text-align: center;
+
+}
+h1,h2,h3,h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.button1{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: larger;
+    position: relative;
+    right: 900px;
+    border-width: 10px;
+    padding: 10px 20px;
+}
+.button2{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: larger; 
+    position: relative;
+    left: 900px;
+    border-width: 10px;
+    padding: 10px 20px;
+}
